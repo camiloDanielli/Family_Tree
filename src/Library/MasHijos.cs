@@ -20,7 +20,7 @@ public class MasHijos : Ivisitor
     {
         int hojas = familiaNode.Children.Count;
 
-        if (hojas > hijos){  //en teoria lo qu estamos mandando es quien tiene mas hojos, pero ante dos con la misma cantidad, se queda con el primero que encuentra, si pusieramos >= se quedaria con el ultimo que encontro
+        if (hojas > hijos){  //en teoria lo qu estamos mandando es quien tiene mas hijos, pero ante dos con la misma cantidad, se queda con el primero que encuentra, si pusieramos >= se quedaria con el ultimo que encontro
             hijos = hojas;
             quien = familiaNode.Person.Nombre;
         }
